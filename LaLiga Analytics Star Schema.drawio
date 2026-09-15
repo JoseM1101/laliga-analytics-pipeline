@@ -1,0 +1,241 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="DGJtoCY-HwG7kDp_baEK">
+    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;dim_team&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="1090" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;dim_season&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="700" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="260" x="700" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#FFFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK&lt;/font&gt;&amp;nbsp;season_id&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; number_of_teams&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; end_date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; start_date&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-30" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Y1XGa3PTBl9VCIQ636iE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fct_match&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="502.5" width="260" x="700" y="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#FFFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK&lt;/font&gt;&amp;nbsp;match_id&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; goals_scored&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="387.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; is_home&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; goals_against&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-152" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y1XGa3PTBl9VCIQ636iE-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#E5CCFF;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;FK&lt;/font&gt; team_key&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-38" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Y1XGa3PTBl9VCIQ636iE-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; date&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-117" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y1XGa3PTBl9VCIQ636iE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#E5CCFF;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;FK&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;season_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="267.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-114" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Y1XGa3PTBl9VCIQ636iE-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#E5CCFF;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;FK&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;opponent_team_key&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; points&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="657.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fct_season_summary&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="1090" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="260" x="1090" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#FFFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK&lt;/font&gt;&amp;nbsp;season_id + team_key + matchday&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_goals_scored&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; matchday&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_goals_against&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-153" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Y1XGa3PTBl9VCIQ636iE-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#E5CCFF;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;FK&lt;/font&gt; team_key&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-64" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Y1XGa3PTBl9VCIQ636iE-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; title_odds&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-120" edge="1" parent="1" source="Y1XGa3PTBl9VCIQ636iE-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Y1XGa3PTBl9VCIQ636iE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#E5CCFF;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;FK&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;season_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_points&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; matchday&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="447.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_goal_difference&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_xG&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_xGA&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; cumulative_xGD&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Grain: 1 row per team per match&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="700" y="687.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Type: Transaction&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="700" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Grain: 1 row per team per matchday&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="1090" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Type: Periodic Snapshot&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="1090" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; league_position&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; number_of_matchdays&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; league_winner&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; fixture_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;dim_opponent_team&lt;i&gt; (dim_team alias)&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="310" x="320" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="272.5" width="260" x="320" y="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#FFFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK&lt;/font&gt; team_key&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; stadium&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; coach&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="267.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; foundation_year&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-111" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; valid_from&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="387.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; match_xG&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; match_xGA&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="507.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; match_xGD&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="537.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; win_probability&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="567.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; loss_probability&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="627.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; draw_probability&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="700" y="597.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; badge_url&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-130" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; team_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="320" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; valid_to&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32.5" width="260" x="320" y="417.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="272.5" width="260" x="1090" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-143" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#FFFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK&lt;/font&gt; team_key&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-144" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; stadium&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; coach&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; foundation_year&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; name&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-148" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; valid_from&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-149" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; badge_url&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; team_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1090" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1XGa3PTBl9VCIQ636iE-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=0;strokeWidth=1;shadow=0;glass=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; valid_to&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32.5" width="260" x="1090" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
