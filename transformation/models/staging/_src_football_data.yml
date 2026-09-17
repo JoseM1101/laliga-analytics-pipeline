@@ -1,0 +1,33 @@
+sources:
+  - name: football_data
+    database: laliga-analytics-506978
+    schema: raw
+    tables:
+      - name: raw_teams
+        description: "Raw API teams payload for current season."
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+          - name: name
+            data_tests:
+              - not_null
+      - name: raw_matches
+        description: "Raw API matches payload for current season."
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+          - name: status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ["SCHEDULED", "TIMED", "FINISHED", "POSTPONED"]
+          - name: utcDate
+            data_tests:
+              - not_null
+          - name: matchday
+            data_tests:
+              - not_null
