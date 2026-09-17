@@ -3,7 +3,6 @@ import requests
 from google.cloud import bigquery
 from dotenv import load_dotenv
 
-# Load key from .env file
 load_dotenv()
 
 PROJECT_ID = os.getenv("GCP_PROJECT_ID")
