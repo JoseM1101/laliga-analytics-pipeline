@@ -8,6 +8,7 @@ SELECT
   homeTeam.name AS home_team_name,
   awayTeam.name AS away_team_name,
   utcDate AS match_date,
+  matchday,
   SAFE_CAST(score.fullTime.home AS INT64) AS home_team_score,
   SAFE_CAST(score.fullTime.away AS INT64) AS away_team_score,
   status
