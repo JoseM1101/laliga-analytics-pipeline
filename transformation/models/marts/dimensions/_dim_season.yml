@@ -1,0 +1,12 @@
+models:
+  - name: dim_season
+    columns:
+      - name: season_id
+        tests:
+          - unique
+      - name: start_date
+        tests:
+          - not_null
+      - name: end_date
+        tests:
+          - not_null
