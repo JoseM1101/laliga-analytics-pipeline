@@ -1,0 +1,13 @@
+models:
+  - name: dim_team
+    columns:
+      - name: team_key
+        tests:
+          - unique
+          - not_null
+      - name: team_id
+        tests:
+          - not_null
+      - name: valid_from
+        tests:
+          - not_null
