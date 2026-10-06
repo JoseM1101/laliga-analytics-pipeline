@@ -1,0 +1,51 @@
+sources:
+  - name: predictions
+    database: laliga-analytics-506978
+    schema: predictions
+    tables:
+      - name: poisson_predictions
+        description: "Poisson prediction results for current season."
+        columns:
+          - name: fixture_id
+            tests:
+              - not_null
+
+          - name: team_id
+            tests:
+              - not_null
+
+          - name: opponent_team_id
+            tests:
+              - not_null
+
+          - name: season_id
+            tests:
+              - not_null
+
+          - name: is_home
+            tests:
+              - not_null
+
+          - name: lambda
+            tests:
+              - not_null
+
+          - name: win_probability
+            tests:
+              - not_null
+
+          - name: draw_probability
+            tests:
+              - not_null
+
+          - name: loss_probability
+            tests:
+              - not_null
+        tests:
+          - dbt_utils.unique_combination_of_columns:
+              arguments:
+                combination_of_columns:
+                  - fixture_id
+                  - team_id
+      - name: montecarlo_predictions
+        description: "Monte Carlo prediction results for current season."

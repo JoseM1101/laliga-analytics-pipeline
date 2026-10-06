@@ -1,0 +1,74 @@
+models:
+  - name: fct_matches
+    description: Match fact table at the team-match grain.
+      Each row represents one team's participation in one fixture.
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - fixture_id
+              - team_key
+
+    columns:
+      - name: match_team_key
+        description: Unique key identifying a team's participation in a fixture.
+        tests:
+          - not_null
+          - unique
+
+      - name: team_key
+        description: Surrogate key identifying the team dimension version
+          valid at the time of the match.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_team')
+                field: team_key
+
+      - name: opponent_team_key
+        description: Surrogate key identifying the opposing team's dimension
+          version valid at the time of the match.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_team')
+                field: team_key
+
+      - name: season_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_season')
+                field: season_id
+
+      - name: fixture_id
+        tests:
+          - not_null
+
+      - name: match_date
+        tests:
+          - not_null
+
+      - name: is_home
+        tests:
+          - not_null
+
+      - name: status
+        tests:
+          - not_null
+
+      - name: win_probability
+        tests:
+          - not_null
+
+      - name: draw_probability
+        tests:
+          - not_null
+
+      - name: loss_probability
+        tests:
+          - not_null
