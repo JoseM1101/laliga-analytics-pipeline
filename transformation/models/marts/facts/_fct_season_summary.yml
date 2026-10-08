@@ -1,0 +1,76 @@
+models:
+  - name: fct_season_summary
+    description: >
+      Periodic snapshot fact table containing the state of each team
+      within a season at a given snapshot date.
+      Grain: one row per team, season, and snapshot date.
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - season_id
+              - team_key
+              - snapshot_date
+
+    columns:
+      - name: season_summary_key
+        description: "Surrogate key for the season summary snapshot."
+        tests:
+          - not_null
+          - unique
+
+      - name: team_key
+        description: "Foreign key to the SCD Type 2 team dimension."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_team')
+                field: team_key
+
+      - name: season_id
+        description: "Foreign key identifying the season."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_season')
+                field: season_id
+
+      - name: snapshot_date
+        description: "Date on which the league state was captured."
+        tests:
+          - not_null
+
+      - name: matches_played
+        tests:
+          - not_null
+
+      - name: wins
+        tests:
+          - not_null
+
+      - name: draws
+        tests:
+          - not_null
+
+      - name: losses
+        tests:
+          - not_null
+
+      - name: title_probability
+        tests:
+          - not_null
+
+      - name: cumulative_points
+        tests:
+          - not_null
+
+      - name: league_position
+        tests:
+          - not_null
+
+      - name: points_per_game
+        tests:
+          - not_null
