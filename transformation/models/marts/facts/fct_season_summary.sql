@@ -34,6 +34,4 @@ SELECT
   FROM {{ source('predictions', 'montecarlo_predictions') }} mcp
   CROSS JOIN snapshot AS s
   JOIN {{ ref('int_current_standings') }} cs ON mcp.season_id = cs.season_id AND mcp.team_id = cs.team_id
-  JOIN {{ ref('dim_team') }} t ON mcp.team_id = t.team_id AND 
-  s.snapshot_date >= DATE(t.valid_from) 
-  AND (s.snapshot_date < DATE(t.valid_to) OR DATE(t.valid_to) IS NULL)
+  JOIN {{ ref('dim_team') }} t ON mcp.team_id = t.team_id

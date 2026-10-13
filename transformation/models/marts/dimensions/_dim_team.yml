@@ -8,6 +8,3 @@ models:
       - name: team_id
         tests:
           - not_null
-      - name: valid_from
-        tests:
-          - not_null
