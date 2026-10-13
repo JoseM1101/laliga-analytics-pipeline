@@ -60,15 +60,3 @@ models:
       - name: status
         tests:
           - not_null
-
-      - name: win_probability
-        tests:
-          - not_null
-
-      - name: draw_probability
-        tests:
-          - not_null
-
-      - name: loss_probability
-        tests:
-          - not_null

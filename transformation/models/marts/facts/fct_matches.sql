@@ -1,7 +1,5 @@
 {{ config(
-    materialized='incremental',
-    unique_key='match_team_key',
-    incremental_strategy='merge',
+    materialized='table',
     cluster_by=['season_id', 'team_key']
 ) }}
 

@@ -1,8 +1,15 @@
-{{ config(
-    materialized='incremental',
-    unique_key='season_summary_key',
-    incremental_strategy='merge',
-) }}
+{{
+    config(
+        materialized='incremental',
+        incremental_strategy='insert_overwrite',
+        partition_by={
+            'field': 'snapshot_date',
+            'data_type': 'date',
+            'granularity': 'day',
+            'copy_partitions': true
+        }
+    )
+}}
 
 WITH snapshot AS (
     SELECT CURRENT_DATE() AS snapshot_date
