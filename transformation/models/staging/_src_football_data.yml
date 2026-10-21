@@ -24,7 +24,14 @@ sources:
             data_tests:
               - accepted_values:
                   arguments:
-                    values: ["SCHEDULED", "TIMED", "FINISHED", "POSTPONED"]
+                    values:
+                      [
+                        "SCHEDULED",
+                        "TIMED",
+                        "FINISHED",
+                        "POSTPONED",
+                        "CANCELLED",
+                      ]
           - name: utcDate
             data_tests:
               - not_null

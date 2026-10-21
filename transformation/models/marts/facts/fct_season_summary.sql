@@ -29,7 +29,7 @@ SELECT
   cs.goal_difference AS cumulative_goal_difference,
   cs.current_position AS league_position,
   cs.total_points AS cumulative_points,
-  COALESCE(cs.total_points / NULLIF(cs.matches_played, 0), 0) AS points_per_game,
+  ROUND(COALESCE(cs.total_points / NULLIF(cs.matches_played, 0), 0), 2) AS points_per_game,
   s.snapshot_date
   FROM {{ source('predictions', 'montecarlo_predictions') }} mcp
   CROSS JOIN snapshot AS s

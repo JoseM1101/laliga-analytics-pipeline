@@ -1,19 +1,26 @@
 from datetime import datetime, timezone
+
 from math import isfinite
+
 import os
+
 import numpy as np
 import pandas as pd
+
 from google.cloud import bigquery
+
 from scipy.stats import poisson
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
-PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+
 # ============================================================
 # Configuration
 # ============================================================
+
+PROJECT_ID = os.getenv("GCP_PROJECT_ID")
 
 SOURCE_DATASET = "dbt_jose_intermediate"
 SOURCE_TABLE = "int_match_features"
@@ -48,7 +55,6 @@ def get_match_features() -> pd.DataFrame:
             avg_home_goals_against,
             avg_away_goals_scored,
             avg_away_goals_against
-
         FROM `{PROJECT_ID}.{SOURCE_DATASET}.{SOURCE_TABLE}`
         ORDER BY fixture_id, is_home DESC
     """
@@ -103,7 +109,9 @@ def calculate_match_probabilities(
         k=-1
     ).sum()
 
-    probability_draw = np.trace(probability_matrix)
+    probability_draw = np.trace(
+        probability_matrix
+    )
 
     probability_away_win = np.triu(
         probability_matrix,
@@ -169,6 +177,7 @@ def generate_predictions(
             )
             continue
 
+        # Calculate expected goals for both sides.
         lambda_home, lambda_away = calculate_lambdas(match)
 
         if (
@@ -183,6 +192,7 @@ def generate_predictions(
             )
             continue
 
+        # Calculate fixture-level probabilities.
         (
             probability_home_win,
             probability_draw,
@@ -192,17 +202,40 @@ def generate_predictions(
             lambda_away,
         )
 
+        prediction_date = datetime.now(timezone.utc)
+
+        # ----------------------------------------------------
+        # Home team perspective
+        # ----------------------------------------------------
+
         predictions.append({
             "fixture_id": fixture_id,
             "season_id": home["season_id"],
-            "home_team_id": home["team_id"],
-            "away_team_id": away["team_id"],
-            "lambda_home": round(lambda_home, 3),
-            "lambda_away": round(lambda_away, 3),
-            "prob_home_win": round(probability_home_win, 3),
-            "prob_draw": round(probability_draw, 3),
-            "prob_away_win": round(probability_away_win, 3),
-            "prediction_date": datetime.now(timezone.utc),
+            "team_id": home["team_id"],
+            "opponent_team_id": away["team_id"],
+            "is_home": True,
+            "lambda": round(lambda_home, 3),
+            "win_probability": round(probability_home_win, 3),
+            "draw_probability": round(probability_draw, 3),
+            "loss_probability": round(probability_away_win, 3),
+            "prediction_date": prediction_date,
+        })
+
+        # ----------------------------------------------------
+        # Away team perspective
+        # ----------------------------------------------------
+
+        predictions.append({
+            "fixture_id": fixture_id,
+            "season_id": away["season_id"],
+            "team_id": away["team_id"],
+            "opponent_team_id": home["team_id"],
+            "is_home": False,
+            "lambda": round(lambda_away, 3),
+            "win_probability": round(probability_away_win, 3),
+            "draw_probability": round(probability_draw, 3),
+            "loss_probability": round(probability_home_win, 3),
+            "prediction_date": prediction_date,
         })
 
     return pd.DataFrame(predictions)
@@ -264,7 +297,7 @@ def main():
         return
 
     print(
-        f"Generated {len(predictions)} predictions."
+        f"Generated {len(predictions)} team-match predictions."
     )
 
     write_predictions(predictions)

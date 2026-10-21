@@ -24,4 +24,4 @@ JOIN {{ ref('dim_team') }} ht
     ON m.team_id = ht.team_id
 JOIN {{ ref('dim_team') }} awt
     ON m.opponent_team_id = awt.team_id
-JOIN {{ source('predictions', 'poisson_predictions') }} p ON m.fixture_id = p.fixture_id AND m.team_id = p.team_id
+LEFT JOIN {{ source('predictions', 'poisson_predictions') }} p ON m.fixture_id = p.fixture_id AND m.team_id = p.team_id
