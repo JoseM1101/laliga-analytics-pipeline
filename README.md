@@ -28,7 +28,7 @@ Python prediction scripts use prepared warehouse data to generate predictions, w
 
 | Technology | Purpose |
 |---|---|
-| Python | Data processing, Poisson predictions, and Monte Carlo simulation |
+| Python | Data ingestion, Poisson predictions, and Monte Carlo simulation |
 | SQL | Data transformations and analytical modeling |
 | Google BigQuery | Cloud data warehouse |
 | dbt | Modular SQL transformations and data modeling |
@@ -46,7 +46,7 @@ The analytical layer follows a dimensional modeling approach inspired by Kimball
 | `fct_matches` | Team-relative match records, including results and predicted outcome probabilities |
 | `fct_season_summary` | Team-level season snapshots, including title probabilities and cumulative standings metrics |
 
-The grain of `fct_matches` is one row per team per fixture. `fct_season_summary` records one row per team, season, and snapshot date.
+The grain of `fct_matches` is one row per team per fixture. `fct_season_summary` records one row per team, and snapshot date.
 
 See the [Data Catalog](docs/data_catalog.md) for model definitions, grains, dependencies, and implementation notes.
 
