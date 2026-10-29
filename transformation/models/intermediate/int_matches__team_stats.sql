@@ -1,5 +1,5 @@
 {{ config(
-    materialized='table',
+    materialized='table',api
     cluster_by=['season_id', 'team_id']
 ) }}
 

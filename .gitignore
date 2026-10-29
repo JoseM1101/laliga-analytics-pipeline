@@ -1,6 +1,5 @@
 # Environment Variables & Secrets (CRITICAL)
 .env
-.env.*
 *.json
 !packages.json
 profiles.yml
@@ -53,5 +52,4 @@ logs/
 ehthumbs.db
 Thumbs.db
 
-*.drawio
 *.bkp
